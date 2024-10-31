@@ -12,3 +12,8 @@ I have created this project to understand the concept of Progressive Web Applica
 
 Setup:
 - run ```npm i && npm start``` for both client and server side to start the development server
+
+
+// Todo: add city names recommendations in the search bar
+// Todo: replace the default weather status image with animated weather status images like gif
+// Todo: add more weather data like humidity, wind speed, AQI, etc.
