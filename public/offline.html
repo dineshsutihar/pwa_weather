@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Offline - Weather App</title>
+        <style>
+            :root {
+                --primary-color: #0a1f44;
+                --secondary-color: #ffffff;
+                --accent-color: #f5a623;
+                --font-family: 'Arial', sans-serif;
+            }
+
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-family: var(--font-family);
+                color: var(--secondary-color);
+                background: var(--primary-color);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .container {
+                background: var(--secondary-color);
+                border-radius: 15px;
+                padding: 30px 20px;
+                width: 90%;
+                max-width: 400px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                color: var(--primary-color);
+            }
+
+            .icon {
+                font-size: 4rem;
+                color: var(--accent-color);
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 1rem;
+                margin: 0;
+            }
+
+            .button {
+                margin-top: 20px;
+                padding: 10px 20px;
+                background: var(--accent-color);
+                color: var(--primary-color);
+                border: none;
+                border-radius: 5px;
+                font-size: 1rem;
+                cursor: pointer;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            .button:hover {
+                background: #d4880e;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="icon">&#9888;</div>
+            <h1>You're Offline</h1>
+            <p>Please connect to the internet to access the latest weather updates.</p>
+            <a class="button" href="/">Retry</a>
+        </div>
+    </body>
+</html>
+
