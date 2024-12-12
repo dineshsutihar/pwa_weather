@@ -14,6 +14,6 @@ Setup:
 - run ```npm i && npm start``` for both client and server side to start the development server
 
 
-// Todo: add city names recommendations in the search bar
-// Todo: replace the default weather status image with animated weather status images like gif
-// Todo: add more weather data like humidity, wind speed, AQI, etc.
+1. // Todo: add city names recommendations in the search bar
+2. // Todo: replace the default weather status image with animated weather status images like gif
+3. // Todo: add more weather data like humidity, wind speed, AQI, etc.
